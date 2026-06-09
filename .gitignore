@@ -1,0 +1,29 @@
+# Node.js зависимости
+node_modules/
+
+# Переменные окружения
+.env
+.env.local
+.env.production
+
+# Лог файлы
+*.log
+npm-debug.log*
+
+# Папка загрузок
+uploads/*
+!uploads/.gitkeep
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Операционные системы
+.DS_Store
+Thumbs.db
+
+# Временные файлы
+*.tmp
+*.temp
